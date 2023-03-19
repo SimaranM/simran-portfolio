@@ -188,7 +188,7 @@ function Landing() {
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                    Herunterladen
+                                    Lebenslauf
                                     </Button>
                                 </a>
                             )}

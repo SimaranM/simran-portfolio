@@ -205,7 +205,7 @@ function Navbar() {
                                 <div className={classes.drawerItem}>
                                     <FaUser className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
-                                        Über uns
+                                        Über mich
                                     </span>
                                 </div>
                             </NavLink>
