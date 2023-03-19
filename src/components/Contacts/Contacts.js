@@ -8,6 +8,7 @@ import {
     FaTwitter,
     FaLinkedinIn,
     FaGithub,
+    FaXing,
     FaEnvelope,
     FaYoutube,
     FaBloggerB,
@@ -204,20 +205,20 @@ function Contacts() {
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Kontakt</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
                         <form action="" ref={form} onSubmit={sendEmail}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>Name</label>
-                                <input type="text" name="name" placeholder="Your Full Name" className={`form-input ${classes.input}`} required />
+                                <input type="text" name="name" placeholder="Name" className={`form-input ${classes.input}`} required />
                             </div>
                             <div className='input-container'>
-                                <label htmlFor='Email' className={classes.label}>Email</label>
-                                <input type="email" name="email" placeholder="Your Email" className={`form-input ${classes.input}`} required />
+                                <label htmlFor='Email' className={classes.label}>E-Mail-Adresse</label>
+                                <input type="email" name="email" placeholder="Email" className={`form-input ${classes.input}`} required />
                             </div>
                             <div className='input-container'>
-                                <label htmlFor='Message' className={classes.label}>Message</label>
+                                <label htmlFor='Message' className={classes.label}>Nachricht</label>
                                 <textarea name="message" className={`form-message ${classes.message}`} placeholder='Ihre Nachricht .....' />
                             </div>
                             <div className='submit-btn'>
@@ -225,7 +226,7 @@ function Contacts() {
                                     type='submit'
                                     className={classes.submitBtn}
                                 >
-                                    <p>{!success ? 'Send' : 'Sent'}</p>
+                                    <p>{!success ? 'Absenden' : 'Sent'}</p>
                                     <div className='submit-icon'>
                                         <AiOutlineSend
                                             className='send-icon'
@@ -395,14 +396,14 @@ function Contacts() {
 
                         <div className='socialmedia-icons'>
 
-                            {socialsData.github && (
+                            {socialsData.xing && (
                                 <a
-                                    href={socialsData.github}
+                                    href={socialsData.xing}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaGithub aria-label='GitHub' />
+                                    <FaXing aria-label='GitHub' />
                                 </a>
                             )}
                             {socialsData.linkedIn && (
@@ -413,16 +414,6 @@ function Contacts() {
                                     className={classes.socialIcon}
                                 >
                                     <FaLinkedinIn aria-label='LinkedIn' />
-                                </a>
-                            )}
-                            {socialsData.twitter && (
-                                <a
-                                    href={socialsData.twitter}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaTwitter aria-label='Twitter' />
                                 </a>
                             )}
                             {socialsData.email && (

@@ -11,6 +11,7 @@ import { socialsData } from '../../data/socialsData';
 import {
     FaTwitter,
     FaLinkedin,
+    FaXing,
     FaGithub,
     FaEnvelope,
     FaBlogger,
@@ -87,6 +88,19 @@ function Landing() {
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='LinkedIn'
+                                />
+                            </a>
+                        )}
+                        {socialsData.xing && (
+                            <a
+                                href={socialsData.xing}
+                                target='_blank'
+                                rel='noreferrer'
+                                className={classes.socialIcon}
+                            >
+                                <FaXing aria-label='xing'
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
                                 />
                             </a>
                         )}
@@ -169,7 +183,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='Lebenslauf_Simran_Mangukiya'
                                     target='_blank'
                                     rel='noreferrer'
                                 >

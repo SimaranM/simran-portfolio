@@ -115,7 +115,7 @@
     padding: 5px;
 }
 .send-icon {
-    font-size: 25px;
+    font-size: 20px;
     transform-origin: center;
     transform: translate(5px,-3px) rotate(-30deg);
 }

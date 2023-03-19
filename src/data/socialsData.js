@@ -1,7 +1,8 @@
 export const socialsData = {
     github: 'https://github.com/SimaranM',
     email: 'mailto:simran.mangukiya95@gmail.com',
-    linkedIn: 'https://www.linkedin.com/in/simran-mangukiya-8b4136250/'
+    linkedIn: 'https://www.linkedin.com/in/simran-mangukiya-8b4136250/',
+    xing:'https://www.xing.com/profile/Simran_Mangukiya/cv'
     // facebook: 'https://www.facebook.com/',
     // instagram: 'https://www.instagram.com/',
     // codepen: 'https://codepen.io/',
