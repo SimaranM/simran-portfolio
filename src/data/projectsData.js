@@ -14,7 +14,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: 'E-commerce UI template',
+        projectName: 'E-commerce UI Template',
         projectDesc: 'Eine UI Template für eine Website zum Online-Einkauf von Lebensmitteln erstellt.',
         tags: ['Html', 'css', 'Javascript'],
         code: 'https://github.com/SimaranM/E-commerce-UI-template',
