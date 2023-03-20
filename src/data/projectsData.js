@@ -7,7 +7,7 @@ import two from '../assets/svg/projects/hackerNews.png'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'hotel_booking',
+        projectName: 'Hotel Booking',
         projectDesc: 'Bei diesem Projekt handelt es sich um ein Hotelbuchungssystem, das es den Benutzern ermöglicht, ein Hotelzimmer, ein Appartmentzimmer und ein Resort im Voraus zu buchen.',
         tags: ['React', 'node js', 'mongoDB', 'Express', 'Tailwind CSS'],
         code: 'https://github.com/SimaranM/hotel_booking',
@@ -16,7 +16,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: 'hacker_News',
+        projectName: 'Hacker News',
         projectDesc: 'Ein Projekt zum Sammeln von Nachrichtenartikeln mit einer Suchfunktion von Hacker News mit Hilfe der Restful API.',
         tags: ['React', 'CSS', 'React pagination'],
         code: 'https://github.com/SimaranM/hacker-news',
