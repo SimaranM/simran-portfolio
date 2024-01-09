@@ -1,6 +1,13 @@
 export const experienceData = [
     {
         id: 1,
+        company: 'BitTwister IT GmbH, Neu-Ulm',
+        jobtitle: 'Full Stack Web-Entwicklerin',
+        startYear: '05/2023',
+        endYear: '01/2024'
+    },
+    {
+        id: 1,
         company: 'Wilysion Technologies, Surat, Indien',
         jobtitle: 'Junior Web-Entwicklerin',
         startYear: '12/2021 ',
